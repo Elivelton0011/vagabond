@@ -58,12 +58,14 @@ a {
 .paragrafo {
     display: flex;
     flex-direction: column;
+    gap: 8px;
     align-items: start;
     padding: 22px 0px 0px 25px;
+    margin:  0px -13px -2px 33px;
 }
 .resumo {
     display: flex;
-    padding: 0px 0px 0px 60px;
+    padding: 0px 0px 0px 6px;
     margin: 0%;
 }
 
@@ -86,13 +88,31 @@ a {
     font-size: 22px;
     font-family: "Open Sans", sans-serif;
 }
+.ppn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+}
 .manga {
     border: 1px solid black;
     background-image: url(img/manga.jpg);
     background-size: cover;
     height: 300px;
     width: 249px;
-    margin: 61px 3px 0px 40px;
+    margin: 61px 30px 0px 40px;
 }
 
+.origem {
+    padding: 0px 0px 0px 66px;
+}
+.paralax {
+    width: 100%;
+    height: 130px;
+    border: 1px solid black;
+    margin-top: 55px;
+    background-image: url(img/paralax.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
 
